@@ -1,0 +1,61 @@
+body{
+    background-image: url("../image/background.jpg");
+    color: #fff;
+ 
+}
+div{
+    border: solid 2px antiquewhite;
+    margin: 10px;
+    padding: 10px;
+    color: #fff;
+   
+}
+
+h1{
+	font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+   color: #fff;
+}
+
+p {
+    text-align: center;
+    color: #fff;
+	text-indent: 20px;
+}
+
+.randomNumber {
+	color: #fff;
+	font-size: 200%; 
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.totalWL { 
+	color: #fff;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+
+ .totalScore {
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+	color:#fff;
+ }
+
+ .scoreDisplay {
+	padding: 3%; 
+	color: #fff;
+	font-size: 200%;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+ }
+
+.crystals{
+	clear: both;
+}
+.crystalImage{
+	height: 60px;
+	margin: 10px;
+}
+
+	
+
+
+
