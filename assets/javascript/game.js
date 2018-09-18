@@ -35,24 +35,22 @@ $(document).ready(function(){
    var totalScore = 0;
 
 
-$('#wins').text(wins);
-$('#losses').text(losses);
-$('#scoreDisplay').text(totalScore);
+$('.wins').text(wins);
+$('.losses').text(losses);
+$('.scoreDisplay').text(totalScore);
 
 
 //wins
 function youWin(){
-    alert("You won!");
       wins++; 
-      $('#wins').text(wins);
+      $('.wins').text(wins);
       reset();
     }
 
 //losses
 function youLose(){
-    alert ("You lose!");
       losses++;
-      $('#losses').text(losses);
+      $('.losses').text(losses);
       reset()
     }    
 
@@ -60,7 +58,7 @@ function youLose(){
 $('#one').on ('click', function(){
     scoreDisplay = scoreDisplay + crystalOne;
     console.log("New ScoreDisplay= " + scoreDisplay);
-    $('#scoreDisplay').text(scoreDisplay); 
+    $('.scoreDisplay').text(scoreDisplay); 
           //setting wins/losses conditions
         if (scoreDisplay == Random){
           youWin();
@@ -72,7 +70,7 @@ $('#one').on ('click', function(){
   $('#two').on ('click', function(){
     scoreDisplay = scoreDisplay + crystalTwo;
     console.log("New scoreDisplay= " + scoreDisplay);
-    $('#scoreDisplay').text(scoreDisplay); 
+    $('.scoreDisplay').text(scoreDisplay); 
         if (scoreDisplay == Random){
           youWin();
         }
@@ -83,7 +81,7 @@ $('#one').on ('click', function(){
   $('#three').on ('click', function(){
     scoreDisplay = scoreDisplay + crystalThree;
     console.log("New scoreDisplay= " + scoreDisplay);
-    $('#scoreDisplay').text(scoreDisplay); 
+    $('.scoreDisplay').text(scoreDisplay); 
         if (scoreDisplay == Random){
           youWin();
         }
@@ -94,7 +92,7 @@ $('#one').on ('click', function(){
   $('#four').on ('click', function(){
     scoreDisplay = scoreDisplay + crystalFour;
     console.log("New scoreDisplay= " + scoreDisplay);
-    $('#scoreDisplay').text(scoreDisplay); 
+    $('.scoreDisplay').text(scoreDisplay); 
         if (scoreDisplay == Random){
           youWin();
         }
@@ -107,13 +105,13 @@ $('#one').on ('click', function(){
    function reset(){
     Random=Math.floor(Math.random()*101+19);
     console.log(Random)
-    $('#randomNumber').text(Random);
+    $('.randomNumber').text(Random);
     crystalOne= Math.floor(Math.random()*11+1);
     crystalTwo= Math.floor(Math.random()*11+1);
     crystalThree= Math.floor(Math.random()*11+1);
     crystalFour= Math.floor(Math.random()*11+1);
     userTotal= 0;
-    $('#scoreDisplay').text(totalScore);
+    $('.scoreDisplay').text(totalScore);
     } 
 
 
