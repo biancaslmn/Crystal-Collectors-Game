@@ -1,8 +1,11 @@
 body{
     background-image: url("../image/background.jpg");
     color: #fff;
- 
+    width: 60%;
+    clear: both;
+    margin: 0 auto;
 }
+
 div{
     border: solid 2px antiquewhite;
     margin: 10px;
@@ -23,6 +26,7 @@ p {
     color: #fff;
 	text-indent: 20px;
 }
+
 
 .randomNumber {
 	color: #fff;
