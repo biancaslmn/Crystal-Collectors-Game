@@ -43,14 +43,14 @@ $('.scoreDisplay').text(totalScore);
 //wins
 function youWin(){
       wins++; 
-      $('.wins').text(wins);
+      $('.wins').text("wins " + wins);
       reset();
     }
 
 //losses
 function youLose(){
       losses++;
-      $('.losses').text(losses);
+      $('.losses').text("losses " + losses);
       reset()
     }    
 
