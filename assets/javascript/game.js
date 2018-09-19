@@ -57,7 +57,7 @@ function youLose(){
 //setting up clicks on crystals
 $('#one').on ('click', function(){
     scoreDisplay = scoreDisplay + crystalOne;
-    console.log("New ScoreDisplay= " + scoreDisplay);
+    console.log("New scoreDisplay= " + scoreDisplay);
     $('.scoreDisplay').text(scoreDisplay); 
           //setting wins/losses conditions
         if (scoreDisplay == Random){
