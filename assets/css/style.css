@@ -4,6 +4,7 @@ body{
     width: 60%;
     clear: both;
     margin: 0 auto;
+    overflow: auto;
 }
 
 div{
